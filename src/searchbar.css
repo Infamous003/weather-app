@@ -1,0 +1,30 @@
+input,
+button {
+    font: inherit;
+}
+
+input {
+    border: none;
+    border-top-left-radius: 1.5rem;
+    border-bottom-left-radius: 1.5rem;
+    padding: 0.8rem 1.2rem;
+    outline: none;
+    width: 500px;
+}
+
+input:focus {
+    border: none;
+}
+
+button {
+    border: none;
+    border-radius: 0;
+    padding: 0.8rem 1.2rem;
+    border-top-right-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+}
+
+button:hover {
+    background-color: #EEE;
+    border: none;
+}
